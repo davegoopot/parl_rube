@@ -1,36 +1,75 @@
-[14:01:43] [Server thread/INFO]: Starting minecraft server version 1.7.9
-[14:01:43] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[14:01:43] [Server thread/INFO]: Loading properties
-[14:01:43] [Server thread/INFO]: Default game type: CREATIVE
-[14:01:43] [Server thread/INFO]: Generating keypair
-[14:01:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:01:45] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
-[14:01:45] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
-[14:01:45] [Thread-7/WARN]: Could not get latest artifact information: IOException
-[14:01:45] [Server thread/INFO]: Preparing level "world"
-[14:01:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8975742454855009642)
-[14:01:49] [Server thread/INFO]: Preparing spawn area: 50%
-[14:01:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8287658527822503945)
-[14:01:51] [Server thread/INFO]: Preparing spawn area: 20%
-[14:01:52] [Server thread/INFO]: Preparing spawn area: 39%
-[14:01:53] [Server thread/INFO]: Preparing spawn area: 80%
-[14:01:53] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8287658527822503945)
-[14:01:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:01:54] [Server thread/INFO]: Done (9.051s)! For help, type "help" or "?"
-[14:02:05] [User Authenticator #1/INFO]: UUID of player 1312589 is f8f894e6-5ce7-4f59-bbc4-93f8441e14a9
-[14:02:05] [Server thread/INFO]: 1312589[/127.0.0.1:51911] logged in with entity id 35 at ([world] 909.5, 4.0, 418.5)
-[14:02:21] [Server thread/INFO]: 1312589 has just earned the achievement [Taking Inventory]
-[14:06:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2398ms behind, skipping 47 tick(s)
-[14:33:49] [Server thread/INFO]: 1312589 issued server command: /time set 0
-[14:33:49] [Server thread/INFO]: 1312589: Set time to 0[m
-[14:33:58] [Server thread/INFO]: 1312589 issued server command: /gamerule keepInventory true
-[14:33:58] [Server thread/INFO]: 1312589: Game rule keepInventory has been set to: true[m
-[14:34:06] [Server thread/INFO]: CONSOLE: Stopping the server..[m
-[14:34:06] [Server thread/INFO]: Stopping server
-[14:34:06] [Server thread/INFO]: Saving players
-[14:34:06] [Server thread/INFO]: 1312589 lost connection: Server closed
-[14:34:06] [Server thread/INFO]: 1312589 left the game.
-[14:34:06] [Server thread/INFO]: Saving worlds
-[14:34:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[14:34:06] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[14:34:06] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[17:03:21] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[17:03:21] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[17:03:21] [Server thread/INFO]: Loading properties
+[17:03:21] [Server thread/INFO]: Default game type: CREATIVE
+[17:03:21] [Server thread/INFO]: Generating keypair
+[17:03:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:03:24] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
+[17:03:24] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.4
+[17:03:24] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+[17:03:24] [Server thread/INFO]: Preparing level "world"
+[17:03:24] [Thread-7/WARN]: Could not get latest artifact information: IOException
+[17:03:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8975742454855009642)
+[17:03:25] [Server thread/INFO]: Preparing spawn area: 10%
+[17:03:26] [Server thread/INFO]: Preparing spawn area: 64%
+[17:03:27] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8287658527822503945)
+[17:03:28] [Server thread/INFO]: Preparing spawn area: 11%
+[17:03:30] [Server thread/INFO]: Preparing spawn area: 48%
+[17:03:31] [Server thread/INFO]: Preparing spawn area: 82%
+[17:03:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8287658527822503945)
+[17:03:32] [Server thread/INFO]: Preparing spawn area: 56%
+[17:03:33] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.4
+[17:03:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:03:33] [Server thread/INFO]: Done (9.159s)! For help, type "help" or "?"
+[17:03:52] [User Authenticator #1/INFO]: UUID of player 1312589 is f8f894e6-5ce7-4f59-bbc4-93f8441e14a9
+[17:03:53] [Server thread/INFO]: 1312589[/127.0.0.1:55077] logged in with entity id 30 at ([world] 909.531775198639, 4.0, 418.4548318876815)
+[17:04:06] [Server thread/INFO]: net.minecraft.util.com.mojang.authlib.GameProfile@1677cd[id=<null>,name=1312589,properties={},legacy=false] (/127.0.0.1:55076) lost connection: Disconnected
+[17:04:08] [Server thread/INFO]: 1312589 issued server command: /tp 1312589 0 5 0
+[17:04:08] [Server thread/INFO]: 1312589: Teleported 1312589 to 0.50, 5.50, 0.50[m
+[17:04:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3283ms behind, skipping 65 tick(s)
+[17:05:23] [Thread-9/INFO]: Starting input thread!
+[17:05:23] [Thread-10/INFO]: Starting output thread!
+[17:05:23] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50952.
+[17:05:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50952.
+[17:07:14] [Thread-11/INFO]: Starting input thread!
+[17:07:14] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50956.
+[17:07:14] [Thread-12/INFO]: Starting output thread!
+[17:07:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50956.
+[17:07:50] [Server thread/INFO]: 1312589 issued server command: /die
+[17:07:56] [Server thread/INFO]: 1312589 issued server command: /kill
+[17:07:56] [Server thread/INFO]: 1312589 died
+[17:09:00] [Server thread/INFO]: 1312589 issued server command: /tp 1312589 0 4 0
+[17:09:00] [Server thread/INFO]: 1312589: Teleported 1312589 to 0.50, 4.50, 0.50[m
+[17:09:24] [Server thread/INFO]: 1312589 issued server command: /setworldspawn
+[17:09:24] [Server thread/INFO]: 1312589: Set world world's spawnpoint to (0, 4, 0)[m
+[17:09:44] [Thread-13/INFO]: Starting input thread!
+[17:09:44] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50963.
+[17:09:44] [Thread-14/INFO]: Starting output thread!
+[17:09:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50963.
+[17:10:22] [Thread-15/INFO]: Starting input thread!
+[17:10:22] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50968.
+[17:10:22] [Thread-16/INFO]: Starting output thread!
+[17:10:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50968.
+[17:10:43] [Server thread/INFO]: 1312589 issued server command: /clear
+[17:10:43] [Server thread/INFO]: 1312589: Cleared the inventory of 1312589, removing 3 items[m
+[17:11:16] [Thread-17/INFO]: Starting input thread!
+[17:11:16] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50972.
+[17:11:16] [Thread-18/INFO]: Starting output thread!
+[17:11:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50972.
+[17:12:26] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[17:12:26] [Server thread/INFO]: Stopping server
+[17:12:26] [Server thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.4
+[17:12:26] [Thread-8/WARN]: java.net.SocketException: Socket closed
+[17:12:26] [Thread-8/WARN]: 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+[17:12:26] [Thread-8/WARN]: 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:375)
+[17:12:26] [Thread-8/WARN]: 	at java.net.ServerSocket.implAccept(ServerSocket.java:478)
+[17:12:26] [Thread-8/WARN]: 	at java.net.ServerSocket.accept(ServerSocket.java:446)
+[17:12:26] [Thread-8/WARN]: 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+[17:12:26] [Thread-8/WARN]: 	at java.lang.Thread.run(Thread.java:701)
+[17:12:26] [Server thread/INFO]: Saving players
+[17:12:26] [Server thread/INFO]: 1312589 lost connection: Server closed
+[17:12:26] [Server thread/INFO]: 1312589 left the game.
+[17:12:26] [Server thread/INFO]: Saving worlds
+[17:12:26] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:12:26] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[17:12:26] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

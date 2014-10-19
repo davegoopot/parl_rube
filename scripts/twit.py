@@ -2,6 +2,7 @@ from twitter import Twitter
 import ConfigParser as configparser
 from twitter import OAuth
 from time import sleep
+import mcpi.minecraft as minecraft
 
 
 
@@ -23,7 +24,13 @@ def find_max_id(query, t):
     results = t.search.tweets(q=query, result_type="recent")
     return results["search_metadata"]["max_id"]
 
+def connect_to_mc():
+    world = minecraft.Minecraft.create("localhost")
+    return world
 
+def set_minecraft_block():
+    world = connect_to_mc()
+    world.setBlock(0, 0, 0, 1)
   
 def watch_for_tweet(query, t, max_id):
     while True:    
@@ -32,6 +39,7 @@ def watch_for_tweet(query, t, max_id):
                                   result_type="recent")
         if results["statuses"]:
             print(results["statuses"][0]["text"])
+            set_minecraft_block()
             break
         sleep(5)
 
