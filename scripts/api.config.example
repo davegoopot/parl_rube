@@ -3,3 +3,9 @@ token=
 token_secret=
 con_key=
 con_secret=
+
+[phone]
+to=
+from=
+sid=
+auth_token=
